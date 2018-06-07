@@ -6,10 +6,14 @@
 **VARIÁVEIS:**
 
 cardNumber: recebe o número do Cartão de Crédito digitado pelo usuário
+
 product: efetua a multiplicação dos números de posições pares
+
 result: apresenta a soma dos números
 
+
 **FUNÇÕES:**
+
 isValidNumber: nome da função de validação de número de cartão de crédito
 
 

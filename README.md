@@ -39,4 +39,4 @@ FIM
 
 
 ***FLUXOGRAMA***
-![Fluxograma Cartão de Crédito](Fluxograma-Cartao-de-credito.PNG)
+![Fluxograma Cartão de Crédito](https://github.com/amcravila/Cartao-de-credito/blob/master/Fluxograma-Cartao-de-credito.png)

@@ -1,6 +1,6 @@
 # Cartao-de-credito
 
-*VALIDADOR DE NÚMERO DE CARTÃO DE CRÉDITO UTILIZANDO O ALGORITMO DE LUHN*
+***VALIDADOR DE NÚMERO DE CARTÃO DE CRÉDITO UTILIZANDO O ALGORITMO DE LUHN***
 
 
 **VARIÁVEIS:**
@@ -14,7 +14,7 @@ result: apresenta a soma dos números
 
 **FUNÇÕES:**
 
-isValidNumber: nome da função de validação de número de cartão de crédito
+isValiCard: nome da função de validação de número de cartão de crédito
 
 
 INÍCIO

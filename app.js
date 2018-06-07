@@ -7,7 +7,7 @@ var cardNumber = (prompt("Digite o número do cartão de crédito:"));
   }
  
   if (!isNaN(cardNumber)) { 
-
+    
     cardNumber = cardNumber.split('').reverse();
     var result = 0;
 
@@ -22,9 +22,9 @@ var cardNumber = (prompt("Digite o número do cartão de crédito:"));
     } 
     
     if (result % 10 === 0){
-         alert("Número do Cartão de crédito VÁLIDO");
+      alert("Número do Cartão de crédito VÁLIDO");
     } else {
-       alert("Número do Cartão de crédito INVÁLIDO");
+      alert("Número do Cartão de crédito INVÁLIDO");
     }
 
   } else {

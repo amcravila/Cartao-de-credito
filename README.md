@@ -14,7 +14,7 @@ result: apresenta a soma dos números
 
 **FUNÇÕES:**
 
-isValiCard: nome da função de validação de número de cartão de crédito
+isValidCard: nome da função de validação de número de cartão de crédito
 
 
 INÍCIO

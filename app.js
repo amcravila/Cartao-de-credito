@@ -1,15 +1,15 @@
 function onlyNumbers(num) {
   var er = /[^0-9.]/;
   er.lastIndex = 0;
-  var campo = num;
-  if (er.test(campo.value)) {
-    campo.value = "";
+  var cardNumber = num;
+  if (er.test(cardNumber.value)) {
+    cardNumber.value = "";
   }
 };
 
 
 $(document).ready(function() {
-  $(".submit-btn").click(isValidCard);
+  $("#submit-btn").click(isValidCard);
 });
 
 
@@ -35,5 +35,5 @@ var cardNumber = $('#card-number').val();
     } else {
       alert("Número do Cartão de crédito INVÁLIDO");
     }
-    
+
 };

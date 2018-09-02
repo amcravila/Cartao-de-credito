@@ -13,27 +13,27 @@ $(document).ready(function() {
 });
 
 
-function isValidCard () {
+function isValidCard() {
 
 var cardNumber = $('#card-number').val();
 
-    cardNumber = cardNumber.split('').reverse();
-    var result = 0;
+  cardNumber = cardNumber.split('').reverse();
+  var result = 0;
 
-    for (i = 0; i < cardNumber.length; i++) {
-      if (i % 2 !== 0) {
-        var product = cardNumber[i]*2;
-        if (product > 9)
-          product -= 9;
-          cardNumber.splice(i, 1, product);
+  for (i = 0; i < cardNumber.length; i++) {
+    if (i % 2 !== 0) {
+      var product = cardNumber[i]*2;
+      if (product > 9) {
+        product -= 9;
+        cardNumber.splice(i, 1, product);
       }
-      result += parseInt(cardNumber[i]);
     }
+    result += parseInt(cardNumber[i]);
+  }
 
-    if (result % 10 === 0){
-      alert("Número do Cartão de crédito VÁLIDO");
-    } else {
-      alert("Número do Cartão de crédito INVÁLIDO");
-    }
-
+  if (result % 10 === 0) {
+    alert('Número do Cartão de crédito VÁLIDO');
+  } else {
+    alert('Número do Cartão de crédito INVÁLIDO');
+  }
 };

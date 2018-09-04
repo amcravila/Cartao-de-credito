@@ -25,8 +25,8 @@ var cardNumber = $('#card-number').val();
       var product = cardNumber[i]*2;
       if (product > 9) {
         product -= 9;
-        cardNumber.splice(i, 1, product);
       }
+      cardNumber.splice(i, 1, product);
     }
     result += parseInt(cardNumber[i]);
   }
